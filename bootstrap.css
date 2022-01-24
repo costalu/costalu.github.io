@@ -1,0 +1,286 @@
+html {
+  visibility: hidden;
+}
+
+body {
+  background-color: #f0ece3;
+  font-family: "Noto Serif", serif;
+  color: #40514e;
+  margin: 0;
+  overflow-x: hidden !important;
+  position: relative;
+}
+
+body.using-mouse :focus {
+  outline: none;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+.container {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+/* change the brand and text color */
+.navbar-light .navbar-brand,
+.navbar-light .navbar-text {
+  color: #6a8491;
+}
+/* change the link color */
+.navbar-light .navbar-nav .nav-link {
+  color: #6a8491;
+}
+/* change the color of active or hovered links */
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:focus .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+  color: #2a5063;
+}
+
+hr {
+  background-color: #f0ece3;
+  border-color: #c7b198;
+  border-style: dotted none none none;
+  border-width: 10px;
+  width: 8%;
+  margin: 5em auto;
+}
+
+h1 {
+  color: #2a5063;
+  font-family: "Arvo", serif;
+  max-width: 100%;
+  font-size: 6.5vmax;
+  padding-top: 260px;
+  margin: 0;
+}
+
+h2 {
+  color: #596e79;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  padding-bottom: 10px;
+  padding-top: 80px;
+}
+
+h3 {
+  color: #6a8491;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+p {
+  line-height: 2;
+}
+
+a,
+a.my-nav-link {
+  color: #6a8491;
+  text-decoration: none;
+  font-family: "Noto Serif", serif;
+}
+
+a:hover,
+a.my-nav-link:hover,
+a.footer-link:hover {
+  color: #2a5063;
+}
+
+a.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #f0ece3;
+  background: #2a5063;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+a.btn:hover {
+  background: #6a8491;
+  text-decoration: none;
+}
+
+
+h2.keep-height {
+  min-height: 205px;
+  margin-top: 50px;
+}
+
+.quick-intro {
+  font-weight: normal;
+  line-height: 2;
+  pointer-events: none;
+  cursor: default;
+}
+
+.intro {
+  margin: auto;
+}
+
+.professional-pic {
+  height: 10rem;
+  margin-top: 100px;
+}
+
+p {
+  line-height: 2;
+  margin-top: 30px;
+}
+
+.skill-img {
+  width: 40%;
+}
+
+.work-img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.project-img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.profile {
+  padding-top: 80px;
+}
+
+.show-sm, .mobile-p {
+  display: none;
+}
+
+.show-lg {
+  display: flex;
+}
+
+.desktop-p {
+  display: block;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  padding: 5px 0 0 0;
+  margin: 0;
+}
+
+.footer-container {
+  margin-top: 50px;
+  background-color: #dfd3c3;
+}
+
+.top-container {
+  background-color: #dfd3c3;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+  position: relative;
+  color: white;
+}
+
+.btn-circle.btn-xl {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  border-radius: 25px;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.carousel-arrow {
+  visibility: hidden;
+  color:#596e79;
+}
+
+.carousel .carousel-indicators li {
+  background-color: #fff;
+  background-color: rgba(70, 70, 70, 0.25);
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #444;
+}
+
+ul li { padding: 5px 0px; }
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .palm-trees-left {
+    left: 20%;
+  }
+
+  .palm-trees-right {
+    right: 20%;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  .carousel-arrow {visibility: visible;}
+}
+
+@media (min-width: 992px) {
+  .project-img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  h1 {
+    padding-top: 60px;
+  }
+  .top-container {
+    padding-top: 30px;
+  }
+
+  nav.navbar.navbar-light.navbar-expand-lg {
+    padding-top: 30px;
+  }
+
+  .show-lg, .desktop-p {
+    display: none;
+  }
+
+  .show-sm {
+    display: flex;
+  }
+
+  .mobile-p {
+    display: block;
+  }
+
+  .skill-img, .work-img {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 8vmax;
+  }
+}
